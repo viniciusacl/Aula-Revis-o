@@ -3,7 +3,7 @@
 IMC_P = float(input("Digite seu Peso: "))
 IMC_A = float(input("Digite seu Altura: "))
 IMC_T = IMC_P / (IMC_A ** 2)
-print(IMC_T)
+print(f"Seu IMC é: {IMC_T:.1f}")
 
 if IMC_T <= 18.6:
     print(f"Seu IMC é de: {IMC_T:.1f} e você está ABAIXO DO PESO!")
@@ -16,4 +16,4 @@ elif IMC_T >= 30.0 and IMC_T <= 34.9:
 elif IMC_T >= 35.0 and IMC_T <= 39.9:
     print(f"Você está com OBESIDADE GRAU2!,(SEVERA)")
 else:
-    print(f"OBESIDADE GRAU3!,(MÓRBIDA)")  
+    print(f"OBESIDADE GRAU3!,(MÓRBIDA)") 
